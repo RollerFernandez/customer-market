@@ -141,7 +141,7 @@ namespace Api.Controllers.Customer
         }
 
 
-        [HttpDelete]
+        [HttpPost]
         [Route("Delete")]
         public async Task<IActionResult> Delete(DeleteCustomerModel model)
         {
