@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Elasticsearch.Net" Version="7.17.4" />
+    <PackageReference Include="FluentValidation" Version="11.2.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="NEST" Version="7.17.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerMarket.Application.Interfaces\Interfaces.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Common\Common.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Dto\Dto.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Repository.Interfaces\Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Service.Interfaces\Service.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

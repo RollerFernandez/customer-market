@@ -1,0 +1,32 @@
+# Archivos generados automáticamente
+bin/
+obj/
+
+# Archivos de configuración locales
+*.user
+*.vscode/
+*.vs/
+
+# Archivos de registro y caché
+*.log
+*.cache
+
+# Dependencias y paquetes de NuGet
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Archivos de compilación y publicación
+*.exe
+*.dll
+*.pdb
+*.xml
+*.json
+*.map
+*.js.map
+*.css.map
+
+# Archivos de respaldo
+*~
+*.bak

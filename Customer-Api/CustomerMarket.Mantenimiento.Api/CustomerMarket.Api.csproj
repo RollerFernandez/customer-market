@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.2.1" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerMarket.Application.Implementations\Implementations.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Application.Interfaces\Interfaces.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Common\Common.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Middleware\Middleware.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Model\Model.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Repository.Implementations\Repository.Implementations.csproj" />
+    <ProjectReference Include="..\CustomerMarket.Service.Implementations\Service.Implementations.csproj" />
+  </ItemGroup>
+
+</Project>

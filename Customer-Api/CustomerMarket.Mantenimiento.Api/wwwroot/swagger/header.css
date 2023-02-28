@@ -1,0 +1,7 @@
+﻿.topbar-wrapper img {
+    content: url(https://www.ferreyros.com.pe/wp-content/themes/ferreyros/images/logo.png);
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label select {
+    border: 2px solid #FBBD00;
+}

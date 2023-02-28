@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AlumnoCurso\**" />
+    <EmbeddedResource Remove="AlumnoCurso\**" />
+    <None Remove="AlumnoCurso\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerMarket.Common\Common.csproj" />
+  </ItemGroup>
+
+</Project>
